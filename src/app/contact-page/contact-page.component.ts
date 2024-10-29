@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './contact-page.component.scss'
 })
 export class ContactPageComponent {
-
+  titleContact = 'Interested in our business pricing?';
+  subtitleContact = 'Fill out the form to view details and we’ll contact you as soon as possible.';
 }
