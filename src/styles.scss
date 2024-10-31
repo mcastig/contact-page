@@ -1,11 +1,12 @@
 /* Import Bootstrap */
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import '../node_modules/bootstrap/scss/bootstrap';
 
 /* Import Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap');
 
 body {
-  background: url('/assets/images/bg-image.svg');
+  background-image: url("/contact-page/assets/images/bg-image.svg"); /* Use this rule when deploying project */
+  /* background-image: url("/assets/images/bg-image.svg");  Use this on development */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
