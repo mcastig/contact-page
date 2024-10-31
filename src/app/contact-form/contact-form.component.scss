@@ -1,9 +1,39 @@
 .form-contact-container {
+  margin-top: 70px;
+  margin-bottom: 100px;
+
+  button:hover {
+    background-color: #4036A9;
+    border: 1px solid #4036A9;
+    color: #F8FAFC;
+  }
+
+  .form-control,
+  .form-select,
+  .form-button {
+    border-radius: 16px;
+    padding: 1.2rem;
+  }
+
+  .form-select {
+    color: #111729;
+  }
+
+  .form-button {
+    color: #4036A9;
+    font-size: 20px;
+  }
+
+  .form-label {
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+    font-size: 14px;
+  }
 
   .form-wrapper {
     background-color: rgba(255, 255, 255, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.0);
     border-radius: 24px;
-    padding: 32px;
+    padding: 4px 32px 32px 32px;
   }
 }
